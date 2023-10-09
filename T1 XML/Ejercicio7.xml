@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE music_catalogue>
+<music_catalogue>
+    <song title='I gotta feeling' author='Black eyed peas' release_date = '05/06/2006'>
+        <genres>
+            <genre>Electronic</genre>
+            <genre>Rock</genre>
+            <genre>Pop</genre>
+        </genres>
+    </song>    
+    <song title='Animals' author='Martin Garrix' release_date = '05/06/2014'>
+        <genres>
+            <genre>Electronic</genre>
+            <genre>Tecno</genre>
+        </genres>
+    </song>    
+    <song title='Im good' author='Bebe resha' release_date = '05/08/2022'>
+        <genres>
+            <genre>Electronic</genre>
+            <genre>Pop</genre>
+        </genres>
+    </song>    
+    <song title='Chic n stu' author='System of a down' release_date = '05/06/1990'>
+        <genres>
+            <genre>Metal</genre>
+            <genre>Rock</genre>
+        </genres>
+    </song>    
+</music_catalogue>

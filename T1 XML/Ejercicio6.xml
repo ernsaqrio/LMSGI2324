@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE library>
+<library>
+    <book title='Pokemon horizons Vol1' author='Satoshi Urigama' release_date = '05/06/2022'>
+        <category>Manga</category>
+        <description>New pokemon manga srries 1st volume.</description>
+    </book>    
+    <book title='Conceptos basicos sobre sistemas operativos' author='Pedro Ruiz Arnanda' 
+    release_date = '19/08/2015'>
+        <category>Educational</category>
+        <description>Libro educativo sobre sistemas operativos</description>
+    </book>
+    <book title='Light armor' author='Kent follent' release_date = '07/06/2022'>
+        <category>Ebook</category>
+        <description>A book that contains some adventures</description>
+    </book>
+    <book title='Fur want to be friends' author='Jeniffer Swift' release_date = '07/06/2018'>
+        <category>Comic</category>
+        <description>A comic about a furry girl that wanted to make friends in her highschool but she gets bullied instead.</description>
+    </book>
+</library>

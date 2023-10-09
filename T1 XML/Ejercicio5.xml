@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE store>
+<store>
+    <product name='MSI Gaming Laptop'>
+        <category>Computers</category>
+        <features CPU ='i7' ram='16GB' ssd='2TB' os='windows 11' gpu = 'gtx 1800'></features>
+    </product>
+    <product name='Nintendo Switch OLED'>
+        <category>Gaming consoles</category>
+        <features size = '4 inches high, 9.5 inches long, and 0.55 inches deep (with Joy-Con attached).'
+        CPU_GPU = 'NVIDIA custom tegra processor' storage='64GB'></features>
+    </product>
+    <product name='MSI Gaming PC'>
+        <category>Computers</category>
+        <features CPU ='i9' ram='32GB' ssd='5TB' os='windows 11' gpu = 'rtx 3600'></features>
+    </product>
+</store>

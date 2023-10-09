@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<!DOCTYPE cities> 
+<cities>
+    <city>
+        <name>Nueva Delhi</name>
+        <country continent='Asia'>India</country>
+    </city>
+    <city>
+        <name>Lisboa</name>
+        <country continent='Europe'>Portugal</country>
+    </city>
+    <city>
+        <name>El cairo</name>
+        <country continent='Africa'>Egypt</country>
+    </city>
+</cities>

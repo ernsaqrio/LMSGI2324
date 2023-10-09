@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'utf-8'?>
+<!DOCTYPE libro> 
+<libro> <!--Información sobre una bliblioteca-->
+    <titulo>XML práctico</titulo>
+    <autor>Sebastian</autor>
+    <autor>
+        <nombre>Thierry</nombre>
+        <apellidos>Henry</apellidos>
+    </autor>
+    <editorial>Ediciones Eni</editorial>
+    <isbn>98787-54545-56454</isbn>
+    <edicion>7&amp;&gt;3</edicion>
+    <paginas>347</paginas>
+    <ventas/>
+    <fecha_publi dia='2' mes='octubre' año='2023'></fecha_publi>
+    <fecha_trending>
+        <dia>4</dia>
+        <mes>Octubre</mes>
+        <año>2023</año>
+    </fecha_trending>
+</libro>

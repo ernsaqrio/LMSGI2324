@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dealership>
+
+<dealership>
+    <brand1 name="Toyota" origin_country="Japan">
+        <car>
+            <lincense_plate>2745 MKW</lincense_plate>
+            <registration_year>2023</registration_year>
+            <model>Marai</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>5000 cc</engine_displacement>
+        </car>
+        <car>
+            <lincense_plate>1532 LXC</lincense_plate>
+            <registration_year>2022</registration_year>
+            <model>Camry</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>2126 cc</engine_displacement>
+        </car>
+    </brand1>
+    <brand2 name="Seat" origin_country="Spain">
+        <car>
+            <lincense_plate>7921 MDT</lincense_plate>
+            <registration_year>2023</registration_year>
+            <model>Leon</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>999 cc</engine_displacement>
+        </car>
+        <car>
+            <lincense_plate>4763 MBB</lincense_plate>
+            <registration_year>2022</registration_year>
+            <model>Tarraco</model>
+            <seat_number>7</seat_number>
+            <engine_displacement>1984 cc</engine_displacement>
+        </car>
+    </brand2>
+    <brand3 name="BMW" origin_country="Germany">
+        <car>
+            <lincense_plate>7274 LZJ</lincense_plate>
+            <registration_year>2022</registration_year>
+            <model>5 series</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>2979 cc</engine_displacement>
+        </car>
+        <car>
+            <lincense_plate>4561 MFH</lincense_plate>
+            <registration_year>2023</registration_year>
+            <model>X1</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>1500 cc</engine_displacement>
+        </car>
+    </brand3>
+    <brand4 name="Ford" origin_country="USA">
+        <car>
+            <lincense_plate>6378 LFJ</lincense_plate>
+            <registration_year>2020</registration_year>
+            <model>Mustang GT</model>
+            <seat_number>4</seat_number>
+            <engine_displacement>5100 cc</engine_displacement>
+        </car>
+        <car>
+            <lincense_plate>8474 LMB</lincense_plate>
+            <registration_year>2021</registration_year>
+            <model>Puma ST</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>998 cc</engine_displacement>
+        </car>
+    </brand4>
+    <brand5 name="Renault" origin_country="France">
+        <car>
+            <lincense_plate>1452 MKW</lincense_plate>
+            <registration_year>2023</registration_year>
+            <model>Austral</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>1333 cc</engine_displacement>
+        </car>
+        <car>
+            <lincense_plate>14563 LPR</lincense_plate>
+            <registration_year>2022</registration_year>
+            <model>_Megane</model>
+            <seat_number>5</seat_number>
+            <engine_displacement>1461 cc</engine_displacement>
+        </car>
+    </brand5>
+</dealership>
+   

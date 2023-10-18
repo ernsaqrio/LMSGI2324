@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book>
+
+<book>
+    <title>Sistemas operativos monopuesto</title>
+    <publisher>Somebooks</publisher>
+    <pages>75</pages>
+    <author>Pedro Ruiz Aranda</author>
+    <chapters>
+        <chapter1>
+            <chapter_title>Caracterización de sistemas operativos</chapter_title>
+            <start_page>1</start_page>
+            <end_page>4</end_page>
+        </chapter1>
+        <chapter2>
+            <chapter_title>Componentes lógicos: Representación de la información</chapter_title>
+            <start_page>5</start_page>
+            <end_page>11</end_page>
+        </chapter2>
+        <chapter3>
+            <chapter_title>Instalación de sistemas operativos libres y propietarios</chapter_title>
+            <start_page>12</start_page>
+            <end_page>21</end_page>
+        </chapter3>
+        <chapter4>
+            <chapter_title>Elementos y estructura del sistema operativo. Procesos</chapter_title>
+            <start_page>22</start_page>
+            <end_page>30</end_page>
+        </chapter4>
+        <chapter5>
+            <chapter_title>Gestión de la memoria principal</chapter_title>
+            <start_page>31</start_page>
+            <end_page>38</end_page>
+        </chapter5>
+        <chapter6>
+            <chapter_title>Operación de sistemas de archivos</chapter_title>
+            <start_page>39</start_page>
+            <end_page>45</end_page>
+        </chapter6>
+    </chapters>
+</book>

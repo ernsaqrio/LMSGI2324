@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE football_league [
+    <!ELEMENT football_league (match*)>
+    <!ELEMENT match (#PCDATA)>
+    <!ATTLIST match local_team CDATA #REQUIRED local_goals CDATA #REQUIRED visiting_team CDATA #REQUIRED
+    visiting_goals CDATA #REQUIRED>
+]>
+
+<football_league>
+    <match local_team="Nottingham Preesa" local_goals="0" visiting_team = "Inter from Minente" visiting_goals="1"></match>
+    <match local_team="Vodka Juniors" local_goals="3" visiting_team = "Sparta da Risa" visiting_goals="3"></match>
+    <match local_team="Water of Munich" local_goals="3" visiting_team = "Esteaua is from the tap" visiting_goals="2"></match>
+</football_league>

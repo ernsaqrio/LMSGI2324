@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discografia [
+    <!ELEMENT discografia (titulo, interpretes, pistas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT interpretes (interprete*)>
+    <!ELEMENT interprete (nombre, apellidos, rol)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT rol (#PCDATA)>
+    <!ELEMENT pistas (pista*)>
+    <!ELEMENT pista (nombre, duracion)>
+    <!ELEMENT duracion (#PCDATA)>
+    
+
+]>
+
+<discografia>
+    <titulo>Canciones varias</titulo>
+    <interpretes>
+        <interprete>
+            <nombre>Alejandro</nombre>
+            <apellidos>Sanz</apellidos>
+            <rol>Cantante</rol>
+        </interprete>
+        <interprete>
+            <nombre>Manuel</nombre>
+            <apellidos>Solis</apellidos>
+            <rol>Pianista</rol>
+        </interprete>
+    </interpretes>
+    <pistas>
+        <pista>
+            <nombre>Verano ardiente</nombre>
+            <duracion>3:31</duracion>
+        </pista>
+        <pista>
+            <nombre>Corazon caramelo</nombre>
+            <duracion>2:20</duracion>
+        </pista>
+    </pistas>
+</discografia>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+    <empleado>
+        <nombre></nombre>
+        <apellidos></apellidos>
+    </empleado>
+    <alumno></alumno>
+    <socio></socio>
+</datos>

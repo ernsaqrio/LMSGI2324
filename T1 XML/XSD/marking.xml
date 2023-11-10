@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="marcadores2.xsd">
+
+    <pagina>
+        <nombre>IESalixar</nombre>
+        <descripcion>Nuestro instituto.</descripcion>
+        <url>http://www.iesalixar.org</url>
+    </pagina>
+    <pagina>
+        <nombre>Wikipedia</nombre>
+        <descripcion>la encliclopedia libre.</descripcion>
+        <url>http://www.wikipedia.org</url>
+    </pagina>
+    <pagina>
+        <nombre>W3C</nombre>
+        <descripcion>World wide web consortium.</descripcion>
+        <url>http://www.w3.org</url>
+    </pagina>
+</marcadores>

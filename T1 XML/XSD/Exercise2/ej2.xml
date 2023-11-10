@@ -1,0 +1,22 @@
+<!DOCTYPE shiporder SYSTEM "ej2.dtd">
+
+<shiporder orderid="123456">
+    <orderperson>John Doe</orderperson>
+    <shipto>
+        <name>Jane Doe</name>
+        <address>123 Main St</address>
+        <city>Anytown</city>
+        <country>USA</country>
+    </shipto>
+    <item>
+        <title>Widget A</title>
+        <note>This is a special item</note>
+        <quantity>2</quantity>
+        <price>19.99</price>
+    </item>
+    <item>
+        <title>Widget B</title>
+        <quantity>5</quantity>
+        <price>9.99</price>
+    </item>
+</shiporder>

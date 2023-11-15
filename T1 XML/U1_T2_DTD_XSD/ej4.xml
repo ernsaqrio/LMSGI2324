@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej4.xsd"
+    codigo="40A">
+    <profesor>Dr. Smith</profesor>
+    <profesor>Prof. Johnson</profesor>
+    <profesor>Dr. Rodriguez</profesor>
+    <alumnos>
+        <alumno id="1">
+            <nombre>Albert Layson</nombre>
+            <edad>22</edad>
+            <curso>CFGS1ASIR</curso>
+        </alumno>
+        <alumno id="2">
+            <nombre>Lara Lopez</nombre>
+            <edad>18</edad>
+            <curso>CFGS1ASIR</curso>
+        </alumno>
+    </alumnos>
+</clase>

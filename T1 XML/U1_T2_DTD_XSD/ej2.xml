@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro>
+    <Titulo>Nociones sobre XML</Titulo>
+    <Seccion>Lenguajes XML y XHTML</Seccion>
+    <Contenido>
+        <Capitulo>
+            <Tema>Introduccion a XML</Tema>
+            <Tema>XML Avanzado</Tema>
+        </Capitulo>
+        <Separacion />
+        <Capitulo materia="XHTML">
+            <Tema>Conceptos basicos de XHTML</Tema>
+            <Tema>XHTML avanzado</Tema>
+        </Capitulo>
+        <Separacion />
+    </Contenido>
+    <Copyright>SOMEBOOKS</Copyright>
+</Libro>

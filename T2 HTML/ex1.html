@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes en línea y centrada</title>
+    <style>
+        .contenedor-imagenes {
+            text-align: center;
+        }
+
+        .linea-imagenes img {
+            display: inline-block;
+            margin: 10px; /* Ajusta el margen según tus preferencias */
+        }
+
+        .imagen-centrada img {
+            display: block;
+            margin: 0 auto; /* Centra la imagen horizontalmente */
+            margin-top: 20px; /* Ajusta la separación desde arriba según tus preferencias */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-imagenes">
+        <div class="linea-imagenes">
+            <a href="https://html5.org/" target="_blank" class="enlace-img">
+                <img src="ex1/html5.png" alt="html5" width="21.5%" height="21.5%">
+            </a>
+            <a href="https://www.w3.org/Style/CSS/" target="_blank" class="enlace-img">
+                <img src="ex1/css3.png" alt="css3" width="15%" height="15%">
+            </a>
+        </div>
+        <div class="imagen-centrada">
+            <a href="https://www.google.com/intl/es_es/chrome/browser-tools/" target="_blank" class="enlace-img">
+                <img src="ex1/chrome.png" alt="chrome" width="15%" height="15%">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

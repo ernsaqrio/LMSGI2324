@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .day {
+      font-weight: bold;
+    }
+    .time {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>Horario</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="time">8:15 - 9:15</td>
+        <td rowspan="2"><span class="day">Gestion de base de datos</span></td>
+        <td><span class="day">Fundamentos de hardware</span></td>
+        <td rowspan="2"><span class="day">Lenguaje de marcas y sistemas de gestion de la informacion</span></td>
+        <td rowspan="2"><span class="day">Implantacion de sistemas operativos</span></td>
+        <td rowspan="2"><span class="day">Planificacion y administracion de redes</span></td>
+      </tr>
+      <tr>
+        <td class="time">9:15 - 10:15</td>
+        <td rowspan="2"><span class="day">Implantacion de sistemas operativos</span></td>
+      </tr>
+      <tr>
+        <td class="time">10:15 - 11:15</td>
+        <td><span class="day">Planificacion y administracion de redes</span></td>
+        <td><span class="day">Implantacion de sistemas operativos</span></td>
+        <td colspan="2"><span class="day">Formacion y orientacion laboral</span></td>
+      </tr>
+      <tr>
+        <td class="time">11:15 - 11:45</td>
+        <td colspan="2"><span class="day">Recreo</span></td>
+        <td><span class="day">Tutoria</span></td>
+        <td><span class="day">Recreo</span></td>
+        <td><span class="day">Tutoria</span></td>
+      </tr>
+      <tr>
+        <td class="time">11:45 - 12:45</td>
+        <td><span class="day">Planificacion y administracion de redes</span></td>>
+        <td><span class="day">Formacion y orientacion laboral</span></td>
+        <td colspan="2"><span class="day">Fundamentos de hardware</span></td>
+        <td rowspan="2"><span class="day">Lenguaje de marcas y sistemas de gestion de la informacion</span></td>
+      </tr>
+      <tr>
+        <td class="time">12:45 - 13:45</td>
+        <td rowspan="2"><span class="day">Implantacion de sistemas operativos</span></td>
+        <td rowspan="2"><span class="day">Planificacion y administracion de redes</span></td>
+        <td rowspan="2" colspan="2"><span class="day">Gestion de base de datos</span></td>
+      </tr>
+      <tr>
+        <td class="time">13:45 - 14:45</td>
+        <td><span class="day">Implantacion de sistemas operativos</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

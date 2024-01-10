@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewporrt" content="width-device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact form</legend>
+            <label for="id_name">Name*</label>
+            <input type="text" id="id_name" placeholder="Introduce your name" required />
+            <br>
+            <label for="id_region">Region:</label>
+            <select name="Region" id="id_region">
+                <option value="1">Cádiz</option>
+                <option value="2">Sevilla</option>
+                <option value="3" selected>Córdoba</option>
+            </select>
+            <br>
+            <p>Text Area for writing some cool</p>
+            <textarea name="Info" id="id_info" cols="50" readonly>
+            Hi everyone. Eevee is the most adorable pokémon ever but sprigatito is also too.
+            </textarea>
+            <br>
+            <input type="date">
+            <br>
+            <input type="color">
+            <br>
+            <input type="number">
+            <br>
+            <input type="file">
+            <br>
+            <input type="password">
+            <br>
+            <button type="reset">reset</button>
+            <br>
+            <p>Fav Web markup language</p>
+            <input type="radio" name="fav_language" id="html" value="HTML">
+            <label for="html">HTML</label>
+            <br>
+            <input type="radio" name="fav_language" id="css" value="CSS">
+            <label for="css">CSS</label>
+            <br>
+            <input type="radio" name="fav_language" id="js" value="Javascript">
+            <label for="js">Javascript</label>
+            <br>
+            <p>Select consoles you have</p>
+            <input type="checkbox" id="console1" name="console1" value="PS5">
+            <label for="console1"> I have a PS5</label><br>
+            <input type="checkbox" id="console2" name="console2" value="XBOX">
+            <label for="console2"> I have a XBOX</label><br>
+            <input type="checkbox" id="console3" name="console3" value="Switch">
+            <label for="console3"> I have a Switch</label>
+            <br>
+            <label for="browser">Write a web browser</label>
+            <input list="browsers" name="browsers" id="browser">
+            <datalist id="browsers">
+                <option value="Edge"></option>
+                <option value="Chrome"></option>
+                <option value="Firefox"></option>
+            </datalist>
+            <br>
+
+            <button type="submit">Submit data</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

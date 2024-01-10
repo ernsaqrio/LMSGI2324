@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>HOJA DE INSCRIPCIÓN EN LOS CICLOS DE GRADO SUPERIOR</h1>
+    <form>
+    <fieldset style="background-color: grey;">
+        <legend style="padding: 0 10px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border-radius: 4px; border: 1px solid black;">Datos personales</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="nombre">
+                </td>
+                <td>
+                    <label for="apellidos">Apellidos:</label>
+                    <br>
+                    <input type="text" id="apellidos">
+                </td>
+                <td>
+                    <label for="dni">DNI:</label>
+                    <br>
+                    <input type="text" id="dni">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="localidad">Localidad de nacimiento:</label>
+                    <br>
+                    <input type="text" id="localidad">
+                </td>
+                <td>
+                    <label for="provincia">Provincia:</label>
+                    <br>
+                    <select id="provincia" name="provincia">
+                        <option value="selecciona">-selecciona-</option>
+                        <option value="provincia1">Granada</option>
+                        <option value="provincia2">Málaga</option>
+                        <option value="provincia3">Sevilla</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                    <br>
+                    <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="direccion">Direccion:</label>
+                    <br>
+                    <input type="text" id="direccion"></td>
+                <td><label for="localidad">Localidad de nacimiento:</label>
+                    <br>
+                    <input type="text" id="localidad"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset style="background-color:rgb(236, 245, 113)">
+        <legend style="padding: 0 10px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border-radius: 4px; border: 1px solid black;">Forma de acceso</legend>
+        <label>
+            <input type="radio" name="opcion" value="opcion1">
+            Directo
+        </label>
+        <br>
+        <div style="text-align: center;">
+            <label>
+                <input type="radio" name="opcion2" value="opcion2">
+                Bachillerato LOGSE , Modalidad: <input type="text" name="modalidad">
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="opcion2" value="opcion3">
+                Bachillerato Experimental
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="opcion2" value="opcion4">
+                COU, Opcion: <input type="text" name="opcioncou">
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="opcion2" value="opcion5">
+                FP2
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="opcion2" value="opcion6">
+                Otros (especifique) <input type="text" name="otros">
+            </label>
+        </div>
+        <label>
+            <input type="radio" name="opcion" value="opcion7">
+            Prueba Libre
+        </label>
+
+    </fieldset>
+    <fieldset style="background-color:rgb(209, 76, 76)">
+        <legend style="padding: 0 10px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border-radius: 4px; border: 1px solid black;">Documentos Adjuntos</legend>
+        <input type="checkbox" id="documento1" name="documento1" value="dni">
+            <label for="documento1"> Fotocopia DNI</label>
+            <input type="checkbox" id="documento2" name="documento2" value="certificado">
+            <label for="documento2"> Certificado Academico</label><br>
+            <input type="checkbox" id="documento3" name="documento3" value="otros">
+            <label for="documento3"> Otros documetos (especifique) <input type="text" name="otros"></label>
+    </fieldset>
+    <br>
+    <button type="submit">Enviar Solicitud</button>
+</form>
+
+</body>
+
+</html>

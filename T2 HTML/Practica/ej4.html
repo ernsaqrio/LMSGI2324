@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej4</title>
+    <style>
+        #tablero {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 5px;
+            margin-top: 20px;
+        }
+
+        .casilla {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            font-size: 36px;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tres en raya</h1>
+
+    <div id="tablero"></div>
+
+    <script>
+
+        let turno = 'X';
+        let tablero = ['', '', '', '', '', '', '', '', ''];
+        let juegoTerminado = false;
+
+        
+        function dibujarTablero() {
+            const tableroElement = document.getElementById('tablero');
+            tableroElement.innerHTML = '';
+
+            for (let i = 0; i < tablero.length; i++) {
+                const casilla = document.createElement('div');
+                casilla.className = 'casilla';
+                casilla.dataset.index = i;
+                casilla.textContent = tablero[i];
+                casilla.addEventListener('click', manejarClic);
+                tableroElement.appendChild(casilla);
+            }
+        }
+
+        
+        function manejarClic(event) {
+            if (!juegoTerminado && tablero[event.target.dataset.index] === '') {
+                tablero[event.target.dataset.index] = turno;
+                dibujarTablero();
+                if (verificarGanador()) {
+                    alert(`¡El jugador ${turno} ha ganado!`);
+                    reiniciarJuego();
+                } else if (tableroCompleto()) {
+                    alert('¡Empate!');
+                    reiniciarJuego();
+                } else {
+                    cambiarTurno();
+                }
+            }
+        }
+
+        
+        function cambiarTurno() {
+            turno = turno === 'X' ? 'O' : 'X';
+        }
+
+        
+        function verificarGanador() {
+            const lineasGanadoras = [
+                [0, 1, 2], [3, 4, 5], [6, 7, 8], 
+                [0, 3, 6], [1, 4, 7], [2, 5, 8], 
+                [0, 4, 8], [2, 4, 6]             
+            ];
+
+            for (const linea of lineasGanadoras) {
+                const [a, b, c] = linea;
+                if (tablero[a] !== '' && tablero[a] === tablero[b] && tablero[a] === tablero[c]) {
+                    juegoTerminado = true;
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        
+        function tableroCompleto() {
+            return tablero.every(casilla => casilla !== '');
+        }
+
+        
+        function reiniciarJuego() {
+            turno = 'X';
+            tablero = ['', '', '', '', '', '', '', '', ''];
+            juegoTerminado = false;
+            dibujarTablero();
+        }
+
+        
+        dibujarTablero();
+    </script>
+
+</body>
+</html>

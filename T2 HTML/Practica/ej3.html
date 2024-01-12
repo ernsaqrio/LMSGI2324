@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej3</title>
+    <style>
+        
+        legend {
+            background-color: #04c2a2; 
+            color: rgb(0, 0, 0); 
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+      
+        fieldset {
+            border: 1px solid #ffffff; 
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>IES ALIXAR LOGIN</legend>
+
+       
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <br>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <br>
+
+           
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+            <br>
+
+            <label for="opciones">Curso de Matriculacion:</label>
+            <select id="opciones" name="opciones">
+                <option value="opcion1">Primero Daw1</option>
+                <option value="opcion2">Segundo Daw1</option>
+                <option value="opcion3">Bachillerato</option>
+            </select>
+
+            <br>
+
+           
+            <label>Role:</label>
+            <br>
+            <label><input type="radio" name="opcionRadio" value="opcionA">Estudiante</label>
+            <br>
+            <label><input type="radio" name="opcionRadio" value="opcionB">Profesor</label>
+            <br>
+            <label><input type="radio" name="opcionRadio" value="opcionC">Apoyo</label>
+            <br>
+            <label><input type="radio" name="opcionRadio" value="opcionD">Staff</label>
+            <br>
+
+            <label>Forma de comunicación:</label>
+            <br>
+            <label><input type="checkbox" name="opcionCheckbox1" value="opcion1"> Mail</label>
+            <br>
+            <label><input type="checkbox" name="opcionCheckbox2" value="opcion2"> Teléfono</label>
+            <br>
+            <label><input type="checkbox" name="opcionCheckbox3" value="opcion3"> Correo ordinario</label>
+        </fieldset>
+
+    
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+</body>
+</html>

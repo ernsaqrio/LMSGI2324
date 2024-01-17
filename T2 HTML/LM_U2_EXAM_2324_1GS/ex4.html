@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise4</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="border-radius: 4px; border: 1px solid rgb(228, 220, 110);">
+            <legend style="padding: 0 10px;
+        background-color: rgb(228, 220, 110);
+        color: rgb(0, 0, 0);
+        border-radius: 4px; border: 1px solid rgb(228, 220, 110);">Leave Form</legend>
+            <div><label for="mail">Employee Email</label>
+                <select id="mail" name="mail">
+                    <option value="default">appuser@zohocreator.com</option>
+                    <option value="mnai1">appuser2@zohocreator.com</option>
+                    <option value="mail2">appuse3@zohocreator.com</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="employeeid">Employee Id</label>
+                <input type="number" id="employeeid">
+            </div>
+            <br>
+            <div>
+                <label for="employeename">Employee Name</label>
+                <input type="text" id="employeename">
+            </div>
+            <br>
+            <div>
+                <label for="Designation">Designation</label>
+                <input type="text" id="Designation">
+            </div>
+            <br>
+            <div><label for="Leavetype">Leave type *</label>
+                <select id="Leavetype" name="Leavetype" required>
+                    <option value="default">-Select-</option>
+                    <option value="Leavetype1">Fired</option>
+                    <option value="Leavetype2">Not interested in the work</option>
+                    <option value="Leavetype3">Not enough Salary</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="from">From *</label>
+                <input type="date" id="from" name="from" pattern="[dd-MMM-yyyy]">[dd-MMM-yyyy]
+            </div>
+            <br>
+            <div>
+                <label for="to">To *</label>
+                <input type="date" id="to" name="to" pattern="[dd-MMM-yyyy]">[dd-MMM-yyyy]
+            </div>
+            <br>
+            <div>
+                <label for="days">No of days</label>
+                <input type="number" id="days">
+            </div>
+            <br>
+            <div>
+                <label for="reason">Reason</label>
+                <textarea name="reason" id="id_reason" cols="50"></textarea>
+            </div>
+            <button type="submit" style="background-color: rgb(228, 220, 110); color: white;">Submit</button>
+            <button type="reset" style="background-color: rgb(228, 220, 110); color: white;">reset</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

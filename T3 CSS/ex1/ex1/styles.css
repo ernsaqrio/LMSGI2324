@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+td:first-child {
+    background-color: red;
+    color: white;
+}
+
+ul {
+    color: red;
+}
+
+td[colspan="2"],
+td[colspan="3"] {
+    background-color: blue;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}

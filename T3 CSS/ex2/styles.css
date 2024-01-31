@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #ffffff;
+}
+
+p{
+    color: rgb(34, 170, 34);
+    text-align: center;
+}
+
+td.hour-cell {
+    background-color: green;
+    color: black;
+}
+
+td.recreo{
+    background-color: yellow;
+}
+
+#email-form {
+    margin-top: 20px;
+}
+#email-input {
+    padding: 5px;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 10px;
+    border: 1px solid red;
+}
+
+.required-label::after {
+    content: "*";
+    color: red;
+    margin-left: 4px;
+}

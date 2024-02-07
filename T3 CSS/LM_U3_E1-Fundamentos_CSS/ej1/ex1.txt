@@ -1,0 +1,28 @@
+En el archivo poema tenemos el head que es el encabezado que contiene un titulo que se muestra en la pestaña 
+de un navegador.
+
+El html tiene un enlace a la hoja de estilos "estilos.css" donde se incluye los estilos de la página.
+
+El cuerpo del htmol tiene un h1 que es un encabezado en el que pone Jabberwocky (titulo del peoma). Después 
+tiene un h2 que es otro encabezado que dice Lewis Carroll (autor del mismo).
+
+Después se muestra una nota que pone "Through the Looking-Glass and What Alice Found There</cite>,
+1872".
+
+Posteriormente, tenemos unos parrafos que hacen referncia a los versos del poema. Después de esos versos,
+hay un parrafo que se trata de un comentario que ha realizado el autor.
+
+La página tiene 2 enlaces. Uno para el poema en francés y otro hacia un recursos sobre css.
+
+En cuanto a la hogas de estilos hay que recalcar que para el cuerpo se ha usado el "background-color: tan"
+(color de fondo amarillento para la página).
+
+El h1 es de color marron y tiene un tamaño de fuente de 20.
+
+El hard rule es de color azul oscuro. También vemos que el parrafo del comentario tiene un tamaño de fuente de
+12 y un margen a la izquierda de 15.
+
+Para los versos tenemos que son de color marron y poseen un margen de 60.
+
+Los enlaces originalmente son de color verde pero se vuelven amarillos cuando el sitio se ha visitado.
+Al posicionar el cursor sobre el enlace cambia de color a negro.

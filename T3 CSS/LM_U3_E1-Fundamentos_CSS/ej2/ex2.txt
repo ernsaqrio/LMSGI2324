@@ -1,0 +1,6 @@
+Esto se debe a que se ha definido uan clase para poder aplicar estilos diferentes a esos 
+págrafos en cuestion.
+
+Si se quiere que se tenga el mismo aspecto, se puede hacer de 2 formas. O bien asignarle clase a los parrafos
+restantes o bien la mejor solucion es eliminar esa clase y aplicar los estilos de la clase en los parrafos
+originales.

@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
+
+.header-icons {
+    display: flex;
+}
+
+.header-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+    color: black;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.main {
+    display: grid;
+    gap: 20px;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.video {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header-icons {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .videos {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Estilos para tabletas */
+@media (min-width: 601px) and (max-width: 900px) {
+    .videos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Estilos para ordenadores de escritorio */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .videos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1201px) {
+    .videos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

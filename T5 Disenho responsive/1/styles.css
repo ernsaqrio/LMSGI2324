@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px auto;
+    width: 100%;;
+}
+
+header, div {
+    height: 100px;
+}
+
+.rojo {
+    background-color: rgb(255, 0, 0);
+    width: 20%;
+    float: left;
+}
+
+.verde {
+    background-color: rgb(0, 255, 0);
+    width: 80%;
+    float: left;
+}
+
+.azul {
+    background-color: rgb(0, 0, 255);
+    width: 80%;
+    float: left;
+    
+}
+
+.cuatro {
+    background-color: beige;
+    width: 50%;
+    
+}
+
+.cinco {
+    background-color: blueviolet;
+    width: 50%;   
+    float: right;
+}
+
+@media screen and (min-width:576){
+    .uno{
+        width: 40%;
+    }
+}* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px auto;
+    width: 100%;;
+}
+
+header, div {
+    height: 100px;
+}
+
+.uno {
+    background-color: blue;
+    width: 20%;
+    float: left;
+}
+
+.dos {
+    background-color: aquamarine;
+    width: 80%;
+    float: left;
+}
+
+.tres {
+    background-color: green;
+    width: 100%;
+    
+}
+
+.cuatro {
+    background-color: beige;
+    width: 50%;
+    
+}
+
+.cinco {
+    background-color: blueviolet;
+    width: 50%;   
+    float: right;
+}
+
+@media screen and (min-width:576){
+    .uno{
+        width: 40%;
+    }
+}

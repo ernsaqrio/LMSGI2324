@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+    color: cyan;
+    cursor: pointer;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+main {
+    margin-left: 200px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-banner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.recipes {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.recipe {
+    background-color: white; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipe-title {
+    font-weight: bold;
+    margin-top: 10px;
+    color: cyan;
+}
+
+.recipe-desc {
+    margin-top: 10px;
+    color: black;
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        position: relative;
+        justify-content: space-around;
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .menu li {
+        margin: 0 15px;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .recipes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .recipe {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 0 10px;
+        margin-left: 0;
+    }
+
+    .recipes {
+        grid-template-columns: 1fr;
+    }
+
+    .recipe {
+        margin: 10px 0;
+        padding: 10px;
+    }
+z
+    .recipe-desc {
+        margin-top: 10px;
+    }
+}

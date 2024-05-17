@@ -84,7 +84,6 @@ main {
     border-radius: 5px;
 }
 
-/* Estilos para móviles */
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -108,21 +107,18 @@ main {
     }
 }
 
-/* Estilos para tabletas */
 @media (min-width: 601px) and (max-width: 900px) {
     .videos {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Estilos para ordenadores de escritorio */
 @media (min-width: 901px) and (max-width: 1200px) {
     .videos {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-/* Estilos para pantallas grandes */
 @media (min-width: 1201px) {
     .videos {
         grid-template-columns: repeat(4, 1fr);
